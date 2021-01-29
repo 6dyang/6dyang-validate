@@ -1,0 +1,44 @@
+{
+  "name": "6dyang-validate",
+  "version": "1.0.0",
+  "description": "常用验证表达式&方法",
+  "homepage": "https://github.com/6dyang/6dyang-validate#readme",
+  "author": {
+    "name": "LiuDanYang",
+    "email": "thedanyang@vip.qq.com",
+    "url": "https://github.com/6dyang"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/validate.min.js",
+  "keywords": [
+    "validate",
+    "vue"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6dyang/6dyang-validate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/6dyang/6dyang-validate/issues"
+  },
+  "license": "MIT"
+}
